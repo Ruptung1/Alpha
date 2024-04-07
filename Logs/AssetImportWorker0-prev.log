@@ -1,0 +1,668 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4 (Build 23E214)
+Darwin version:          23.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mac/SUCK/Alpha
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54784
+Successfully changed project path to: /Users/mac/SUCK/Alpha
+/Users/mac/SUCK/Alpha
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 164.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac/SUCK/Alpha/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001271 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 109.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1971ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1410ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (1047ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (657ms)
+				ProcessInitializeOnLoadMethodAttributes (244ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/SUCK/Alpha/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/mac/SUCK/Alpha/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 103.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.309 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3312ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2580ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (1271ms)
+				ProcessInitializeOnLoadMethodAttributes (200ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.27 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (39.6 KB). Loaded Objects now: 4372.
+Memory consumption went from 126.6 MB to 126.6 MB.
+Total: 4.584375 ms (FindLiveObjects: 0.386292 ms CreateObjectMapping: 0.132959 ms MarkObjects: 3.676041 ms  DeleteObjects: 0.387917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 483839.491057 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(441b32c00f68e4fe4a608e84f577e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(441b32c00f68e4fe4a608e84f577e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a680ce66aed7627498f1fde6c2066d7f') in 0.045144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.363815 seconds.
+  path: Assets/source
+  artifactKey: Guid(441b32c00f68e4fe4a608e84f577e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source using Guid(441b32c00f68e4fe4a608e84f577e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac2f4df365239383606c7323604f6e5') in 0.001166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6920.516312 seconds.
+  path: Assets/source/map.png
+  artifactKey: Guid(4cdc8e0416633473389ae38c9faa0807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/map.png using Guid(4cdc8e0416633473389ae38c9faa0807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1201c556dd06d70175d597a9980415a') in 2.215143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.061060 seconds.
+  path: Assets/source/map.png
+  artifactKey: Guid(4cdc8e0416633473389ae38c9faa0807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/map.png using Guid(4cdc8e0416633473389ae38c9faa0807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd61c522679d7d00e953b2df53a4a5f') in 0.112473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 291.142387 seconds.
+  path: Assets/source/Map.prefab
+  artifactKey: Guid(e083f5305e4074d098bd5b9ed468cbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Map.prefab using Guid(e083f5305e4074d098bd5b9ed468cbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b3c1002b6e21edecc6e5ef388d2881') in 1.345912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.203123 seconds.
+  path: Assets/source/Map2
+  artifactKey: Guid(4eee5fb9491484d0bafc44fa6d99948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Map2 using Guid(4eee5fb9491484d0bafc44fa6d99948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3c6734c3c04979fb427dd37057097e') in 0.002469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001870 seconds.
+  path: Assets/source/Map2/Map2.prefab
+  artifactKey: Guid(9984dade602684bf18b64932de1add91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Map2/Map2.prefab using Guid(9984dade602684bf18b64932de1add91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325a17372038f03c4b6b979d0249b059') in 0.072176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.260408 seconds.
+  path: Assets/source/Map.prefab
+  artifactKey: Guid(e083f5305e4074d098bd5b9ed468cbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Map.prefab using Guid(e083f5305e4074d098bd5b9ed468cbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5349a58c58253f9ff834a01efc5b3b56') in 0.104900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 447.921123 seconds.
+  path: Assets/Pixel Adventure 1/Assets
+  artifactKey: Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets using Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33105a0ebb810c538dd83941a497bbd1') in 0.001768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 230.630190 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale
+  artifactKey: Guid(2bde4151f087842ad96e6a2724b5a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale using Guid(2bde4151f087842ad96e6a2724b5a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913f5508ac575963f0e4659857e3689a') in 0.007212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211874 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut
+  artifactKey: Guid(5087a08e91344de8b64609eb1abe0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut using Guid(5087a08e91344de8b64609eb1abe0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07546b904c9bd717e98537ee90dd38da') in 0.001914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.202274 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A
+  artifactKey: Guid(90f694900ee04d2f9df6fc6360b37fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A using Guid(90f694900ee04d2f9df6fc6360b37fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba47db444045d50b50978b2dcc9c6cc7') in 0.004305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.253956 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations
+  artifactKey: Guid(6ac4cc8d1d8b4454bb0c3042973bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations using Guid(6ac4cc8d1d8b4454bb0c3042973bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c55226944423030826397c8c76207c4') in 0.001728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.303160 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs
+  artifactKey: Guid(812ba96a173e41c1b442eabccd85d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs using Guid(812ba96a173e41c1b442eabccd85d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a4cabdbdecd15aa809fc9fe62c4984') in 0.001539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.469440 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character
+  artifactKey: Guid(2628c7b9152a4b6a8de4f02f0444e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character using Guid(2628c7b9152a4b6a8de4f02f0444e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6090800d48bcd75dacfc6ed8eca042db') in 0.001654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023843 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_down.prefab
+  artifactKey: Guid(565f5d97d0464129bec2037100f5b0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_down.prefab using Guid(565f5d97d0464129bec2037100f5b0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679c6bd2c6d8c11452ed7b79da401c2f') in 0.287950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_up.prefab
+  artifactKey: Guid(822c8560271f458da388fa51b01b413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_up.prefab using Guid(822c8560271f458da388fa51b01b413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aeca5c93abbde9ce04cddc9d19c41e') in 0.014193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_side.prefab
+  artifactKey: Guid(298290266376460ba25b329ac3873bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_side.prefab using Guid(298290266376460ba25b329ac3873bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e18b668442049b31e6ebb370389f5ab') in 0.059092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_down.prefab
+  artifactKey: Guid(49e9a140ce8f46e7a11bf5447fba2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_down.prefab using Guid(49e9a140ce8f46e7a11bf5447fba2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b264921277f9bad870ee7aaf7121ff') in 0.041621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/duck_up.prefab
+  artifactKey: Guid(ebd408e93abf480c803f607235a0ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/duck_up.prefab using Guid(ebd408e93abf480c803f607235a0ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123302f7c540a4d8111f34c1d9b36f6d') in 0.036833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_walk_down.prefab
+  artifactKey: Guid(12ff99b5176f48059335553773e06e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_walk_down.prefab using Guid(12ff99b5176f48059335553773e06e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace429528795b77577691f8d7a8f87e') in 0.069484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/slide_up.prefab
+  artifactKey: Guid(f2d2c93d9ce14511865c3d722ae00e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/slide_up.prefab using Guid(f2d2c93d9ce14511865c3d722ae00e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1650fafc02cc8eeba8967882cc5ec49') in 0.023064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_attack_down.prefab
+  artifactKey: Guid(e1028b3f5d2e494d96f9235fe910ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_attack_down.prefab using Guid(e1028b3f5d2e494d96f9235fe910ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85da9411276d0033e0a99239a09e85bf') in 0.091199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/gun_up.prefab
+  artifactKey: Guid(e3096d10da0549ae97147f8bc95d88b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/gun_up.prefab using Guid(e3096d10da0549ae97147f8bc95d88b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd431e65ef7dbff2076b6f2f67d6139c') in 0.014572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_A_up.prefab
+  artifactKey: Guid(854878ce36684a17bda3a565bb711ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_A_up.prefab using Guid(854878ce36684a17bda3a565bb711ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6812170f053da35856b656869ebd850') in 0.030414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/duck_down.prefab
+  artifactKey: Guid(05f2f7e4c6834edb96542c4c80c2b0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/duck_down.prefab using Guid(05f2f7e4c6834edb96542c4c80c2b0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b46a7594ad257466bc6c088301e48a') in 0.032880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_up.prefab
+  artifactKey: Guid(47e4f348c4894fe095feeb5f85de1d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_up.prefab using Guid(47e4f348c4894fe095feeb5f85de1d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0943f5a9dffe652b91299cee5a8c5d0') in 0.044208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_attack_side.prefab
+  artifactKey: Guid(baf348122ca149d99149f61f12e159cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_attack_side.prefab using Guid(baf348122ca149d99149f61f12e159cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61673fa90e81565a35b55c3d68c9d011') in 0.071290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_side.prefab
+  artifactKey: Guid(ad7c845a8ea14e87a039b7413b5227b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_side.prefab using Guid(ad7c845a8ea14e87a039b7413b5227b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57aa67a85607d19fe672af28759402cf') in 0.023232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/jump_down.prefab
+  artifactKey: Guid(6a4aad03b07243e9ba5cd243de0e4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/jump_down.prefab using Guid(6a4aad03b07243e9ba5cd243de0e4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40509dfef77e16eadfca73abe9e96d62') in 0.028356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/jump_up.prefab
+  artifactKey: Guid(a80fcb84c3544eef9abb48384db6f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/jump_up.prefab using Guid(a80fcb84c3544eef9abb48384db6f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957c909562774a8e55b13ad6e983effe') in 0.029072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_up.prefab
+  artifactKey: Guid(da4551d8f4b64d2eac925befe56b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_up.prefab using Guid(da4551d8f4b64d2eac925befe56b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe29ee3907a6aad264c17d1c17e55f0') in 0.032157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_A_down.prefab
+  artifactKey: Guid(531574cfc7f44b08beee2906d2373f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_A_down.prefab using Guid(531574cfc7f44b08beee2906d2373f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89824f55c0c07da5e4f844d57498bbfe') in 0.026701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_up.prefab
+  artifactKey: Guid(624428a987e3412a8abf426a0c8d848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_up.prefab using Guid(624428a987e3412a8abf426a0c8d848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554afb465083e47695f328ca3b06b7f5') in 0.014232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/slide_down.prefab
+  artifactKey: Guid(2b6d3483b520416bae591cdfccaeba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/slide_down.prefab using Guid(2b6d3483b520416bae591cdfccaeba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14837ff2c70246a8c80c0f436ef037cf') in 0.021919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_down.prefab
+  artifactKey: Guid(b297c4ee17b140fa904ab7b37aa2b866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_down.prefab using Guid(b297c4ee17b140fa904ab7b37aa2b866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d19f54ce93a60334a510cb25191e87') in 0.026337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/duck_side.prefab
+  artifactKey: Guid(368a83de40104a47845dbfcddd24cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/duck_side.prefab using Guid(368a83de40104a47845dbfcddd24cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff0ec7068755146046d4ea019039238') in 0.039551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_side.prefab
+  artifactKey: Guid(49b171ae6c5b43de8be09b3621a44596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_side.prefab using Guid(49b171ae6c5b43de8be09b3621a44596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14174d0d27122caadd26e61bd1d8afa0') in 0.012905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_up.prefab
+  artifactKey: Guid(51fc31a0d21f409797c817fb3c6b5b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_up.prefab using Guid(51fc31a0d21f409797c817fb3c6b5b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0850ed34df2755f289fb3289b3a5e7b8') in 0.024447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_side.prefab
+  artifactKey: Guid(22cfe9631a7343f9b6ec8f2de454f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_side.prefab using Guid(22cfe9631a7343f9b6ec8f2de454f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eacf418cf861aa489f55d2d56139a6') in 0.029207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_up.prefab
+  artifactKey: Guid(0ba8d6a564454d12913d23b0f5cff947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_up.prefab using Guid(0ba8d6a564454d12913d23b0f5cff947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3826e6761975c69361bed85e676e2f29') in 0.017003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/crawl_up.prefab
+  artifactKey: Guid(ca08bf1b12604409a9c9a87a67777a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/crawl_up.prefab using Guid(ca08bf1b12604409a9c9a87a67777a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca98d226c2c1c805003edc5283b1c71d') in 0.027975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_walk_up.prefab
+  artifactKey: Guid(22c8a0ac9a9644a6a033b6680811a8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_walk_up.prefab using Guid(22c8a0ac9a9644a6a033b6680811a8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fea27280f5454ea46f91503eab6f2d') in 0.022851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/run_side.prefab
+  artifactKey: Guid(7e0019e55c414257813a0b5126d6faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/run_side.prefab using Guid(7e0019e55c414257813a0b5126d6faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addd3626d07bef8fb9964c8f8c2340c5') in 0.037492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/idle_down.prefab
+  artifactKey: Guid(ea418c003ed241c492ae4bf7204c3e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/idle_down.prefab using Guid(ea418c003ed241c492ae4bf7204c3e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0733771c1bc8c31a4b54d25710227394') in 0.033515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_down.prefab
+  artifactKey: Guid(3a63838f7d0941d4a3c9a0a190cc286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_down.prefab using Guid(3a63838f7d0941d4a3c9a0a190cc286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d41716447bc7545bf02c6779bd6e1f') in 0.017229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_attack_down.prefab
+  artifactKey: Guid(5997e00d6e914d46b68e5948e9d9ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_attack_down.prefab using Guid(5997e00d6e914d46b68e5948e9d9ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4859d5e23e09ded7854d1c414a0c2842') in 0.060876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/sword_attack_side.prefab
+  artifactKey: Guid(7d6bcb1ac80845bd89929ea472bf397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/sword_attack_side.prefab using Guid(7d6bcb1ac80845bd89929ea472bf397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d6b0629f8d669cb5396cbac4f637d') in 0.057526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_side.prefab
+  artifactKey: Guid(06dc51e5077f4ab4b26c3e1d111b0fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_side.prefab using Guid(06dc51e5077f4ab4b26c3e1d111b0fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0c5a6d8f2cda7411f2dd4c81cd710e') in 0.011592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_side.prefab
+  artifactKey: Guid(d0051fb6fb8246a6b721e0043681fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bow_side.prefab using Guid(d0051fb6fb8246a6b721e0043681fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcb7019b8977033f7260966f996ced4') in 0.019052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_walk_side.prefab
+  artifactKey: Guid(48fa1b934b6f4811be9d7391029ebe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_walk_side.prefab using Guid(48fa1b934b6f4811be9d7391029ebe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde785fccbb3a50dd94b28dc85be1476') in 0.081934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_walk_down.prefab
+  artifactKey: Guid(c57ba2e295d3499cbb668f6bfccc3cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_walk_down.prefab using Guid(c57ba2e295d3499cbb668f6bfccc3cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bc33e7ab7d5c3c532868d97ea02e1f') in 0.035082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/idle_up.prefab
+  artifactKey: Guid(7a0e446aa89944b98f276de128c71685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/idle_up.prefab using Guid(7a0e446aa89944b98f276de128c71685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23689960b0b7a7f7d635c6368404398c') in 0.031891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_down.prefab
+  artifactKey: Guid(5f265aa0b73846a2b249e97abf3b5eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_down.prefab using Guid(5f265aa0b73846a2b249e97abf3b5eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460302ac5f95fd1c631f8941ff7027da') in 0.016594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_down.prefab
+  artifactKey: Guid(a0ad5f57d3e643ecbc49ad0d17e2ab53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/scythe_idle_down.prefab using Guid(a0ad5f57d3e643ecbc49ad0d17e2ab53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829801909225d52ff78ba9025532e205') in 0.010171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/gun_down.prefab
+  artifactKey: Guid(217870614ba740ae8f7668ea9af7ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/gun_down.prefab using Guid(217870614ba740ae8f7668ea9af7ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef0f107b5289884c076d710517a32e3') in 0.010389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_A_side.prefab
+  artifactKey: Guid(d73d9aa386164e56889d4c0e8092be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_A_side.prefab using Guid(d73d9aa386164e56889d4c0e8092be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c78c8d963b3f3a20d304d9e36f4783') in 0.021399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_down.prefab
+  artifactKey: Guid(ccda0c9ecc8a4540a26aeaac461f2fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_down.prefab using Guid(ccda0c9ecc8a4540a26aeaac461f2fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd658590afb9b0a9d9dcd4f6d59d9add4') in 0.023951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_idle_up.prefab
+  artifactKey: Guid(2c39c5a44273481d96228c2c7170877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hammer_idle_up.prefab using Guid(2c39c5a44273481d96228c2c7170877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24f02ff898dfa69862bef272b0b8611') in 0.009823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.534306 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/sword_attack_up.prefab
+  artifactKey: Guid(e0fd852a6d824f568f0b73360986d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/sword_attack_up.prefab using Guid(e0fd852a6d824f568f0b73360986d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baf6b04dd1582df492dc7d33492f4e6') in 0.100634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/walk_down.prefab
+  artifactKey: Guid(d26ff5f02dca4873a68dd384f05ca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/walk_down.prefab using Guid(d26ff5f02dca4873a68dd384f05ca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd921516d2d099e007bd538b9dc641b5e') in 0.028285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/sword_idle_up.prefab
+  artifactKey: Guid(8fb08c3029fe47eda1c9fb3f11c67573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/sword_idle_up.prefab using Guid(8fb08c3029fe47eda1c9fb3f11c67573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1648cd67331f374a2a9ca42613dd848') in 0.012457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/vanish.prefab
+  artifactKey: Guid(e52cb4ef486041afb747a7819727c44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/vanish.prefab using Guid(e52cb4ef486041afb747a7819727c44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c647505f76614b05a3eac12300ecc5c') in 0.049625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.700812 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/Block_01.prefab
+  artifactKey: Guid(f3cd9fea88934a6f94a9cfc1112c10b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/Block_01.prefab using Guid(f3cd9fea88934a6f94a9cfc1112c10b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8305c02106d41f23331313475b59e60') in 0.042278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_gun.prefab
+  artifactKey: Guid(c36655b83c49418fa753cd857e7afb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_gun.prefab using Guid(c36655b83c49418fa753cd857e7afb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f37188036caf8e87aae194fbbd58c9c') in 0.012180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/Deco_01.prefab
+  artifactKey: Guid(583db09d346646bba4a09e83d4ea5982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/Deco_01.prefab using Guid(583db09d346646bba4a09e83d4ea5982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1987a9176c283532bc566ddf822a271c') in 0.014853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/Deco_02.prefab
+  artifactKey: Guid(9601f490de3c423e821cda9e8d54eab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/Deco_02.prefab using Guid(9601f490de3c423e821cda9e8d54eab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6399fa7c8f6dcefe4b6578fc1d92be8') in 0.023134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_arrow.prefab
+  artifactKey: Guid(7bac0515edaf45ec9fb84dfdc54b530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Objects/bullet_arrow.prefab using Guid(7bac0515edaf45ec9fb84dfdc54b530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b16c101f0f03f379ec3047b2ab8ea') in 0.013002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.896023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_0.asset
+  artifactKey: Guid(3f37370449a141b8a7b250cba34c6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_0.asset using Guid(3f37370449a141b8a7b250cba34c6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28741b19178fe63ad2bd7bcca4af8e8d') in 0.544372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_41.asset
+  artifactKey: Guid(b338fbfe5ccf473680355a87205c4d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_41.asset using Guid(b338fbfe5ccf473680355a87205c4d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0c47eb1fcb4e20887d105434507d30') in 0.014992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_32.asset
+  artifactKey: Guid(17bad41c634a49da8b440fe3e427b821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_32.asset using Guid(17bad41c634a49da8b440fe3e427b821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c560f3f23ef30ce425ea9c173c4674') in 0.015053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_38.asset
+  artifactKey: Guid(3be96a4df5a3498b81c954a8d4dab66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_38.asset using Guid(3be96a4df5a3498b81c954a8d4dab66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15efe3019666a6d6245d9347b5e69d76') in 0.013042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_25.asset
+  artifactKey: Guid(1feb71771e4a4a59814959293618d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_25.asset using Guid(1feb71771e4a4a59814959293618d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c51beb7b5efb070616a75b7983bd3bc') in 0.012476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_45.asset
+  artifactKey: Guid(0e9196ba373843b9976a4cf20b59e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_45.asset using Guid(0e9196ba373843b9976a4cf20b59e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6b9477014728505091b95c79f198e3') in 0.019751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_54.asset
+  artifactKey: Guid(bc29df9d5f1b4dab903dc610246e5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_54.asset using Guid(bc29df9d5f1b4dab903dc610246e5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80abe444751b52ad1e1a07cbb44dfc3b') in 0.012717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_10.asset
+  artifactKey: Guid(f82b4b5f4a1243abbed77362e87b534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_10.asset using Guid(f82b4b5f4a1243abbed77362e87b534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e797df33b0f51a70c335b5e6045267c7') in 0.015308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_23.asset
+  artifactKey: Guid(c0d177cd1171487dad0fe01ed0c56492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_23.asset using Guid(c0d177cd1171487dad0fe01ed0c56492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f703196d65c5907ea1b94c514232f') in 0.012710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_8.asset
+  artifactKey: Guid(86c7361f29564c93a71431223d535cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_8.asset using Guid(86c7361f29564c93a71431223d535cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a33aca235f971a62d7ec64d210d317') in 0.017142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_18.asset
+  artifactKey: Guid(bd78750319e14780bf50613154e1d57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_18.asset using Guid(bd78750319e14780bf50613154e1d57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2105b6bbba52cb03f58637a40d4cb398') in 0.016349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_37.asset
+  artifactKey: Guid(bcb0252e351548179a7f7176e0e1551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_37.asset using Guid(bcb0252e351548179a7f7176e0e1551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f824b36a3cb9f15e66839bf1e4f58e51') in 0.009685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_7.asset
+  artifactKey: Guid(9fd1800eded34f878ce7033b47e7e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_7.asset using Guid(9fd1800eded34f878ce7033b47e7e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56ed5139f033de2643bcf500f749274') in 0.012960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_57.asset
+  artifactKey: Guid(f9a13d1889ef4aa7834e85bce4983508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_57.asset using Guid(f9a13d1889ef4aa7834e85bce4983508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b706f5a6ebb2efcf4ccf1d8a8f44341') in 0.010312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_6.asset
+  artifactKey: Guid(6e5082d4b5d0447dbf14ab6052d752ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Tilemap/Tilemap_6.asset using Guid(6e5082d4b5d0447dbf14ab6052d752ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4becb99faf776ed736c786a4318cd2ef') in 0.013950 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
