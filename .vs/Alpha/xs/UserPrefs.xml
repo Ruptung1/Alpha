@@ -8,17 +8,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Gamemanager.cs">
     <Files>
-      <File FileName="Assets/scripts/PL.cs" Line="55" Column="23" />
-      <File FileName="Assets/scripts/Gamemanager.cs" Line="16" Column="32" />
+      <File FileName="Assets/scripts/Gamemanager.cs" Line="59" Column="14" />
+      <File FileName="Assets/scripts/Player.cs" Line="61" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Alpha" expanded="True">
+          <Node name="Alpha">
             <Node name="Assets" expanded="True">
-              <Node name="scripts" expanded="True">
-                <Node name="Gamemanager.cs" selected="True" />
-              </Node>
+              <Node name="scripts" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -13,6 +16,8 @@ public class Player : MonoBehaviour
     private int moveCnt = 0;
     private int turnCnt = 0;
     private int spawnCnt = 0;
+
+    public GameObject objectToDisable;
 
     void Start()
     {
@@ -49,6 +54,13 @@ public class Player : MonoBehaviour
         if (isFallTurn())
         {
             anime.SetBool("Die", true);
+
+            if (objectToDisable != null)
+            {
+                objectToDisable.SetActive(true);
+                Gamemanager.Instance.showNowScore();
+            }
+
             return;
         }
 
@@ -56,6 +68,8 @@ public class Player : MonoBehaviour
         {
             RespawnBlock();
         }
+
+        Gamemanager.Instance.AddScore();
     }
 
     private void MoveDirection()

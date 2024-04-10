@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Gamemanager : MonoBehaviour
 {
@@ -15,12 +17,49 @@ public class Gamemanager : MonoBehaviour
     private State state;
     private Vector3 psPosition;
 
+    [Header("UI")]
+    [Space(10)]
+    public TextMeshProUGUI textScore;
+    public TextMeshProUGUI textNowScore;
+    private int Score = 0;
+    private int NowScore = 0;
+
+    private bool gameStarted = false;
+
+    public GameObject objectToDisable;
+
     void Start()
     {
         Instance = this;
 
         Init();
         InitBlocks();
+    }
+    
+    void Update()
+    {
+        if (gameStarted == false)
+        {
+            Time.timeScale = 0;
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                gameStarted = true;
+                Time.timeScale = 1f;
+
+                if (objectToDisable != null)
+                {
+                    objectToDisable.SetActive(false);
+                }
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
     }
 
     private void Init()
@@ -35,6 +74,10 @@ public class Gamemanager : MonoBehaviour
             Blocks[i].transform.position = Vector3.zero;
             isTurn[i] = false;
         }
+
+        NowScore = 0;
+
+        textScore.text = NowScore.ToString();
     }
 
     private void InitBlocks()
@@ -96,5 +139,16 @@ public class Gamemanager : MonoBehaviour
         }
 
         psPosition = Blocks[cnt].transform.position;
+    }
+
+    public void AddScore()
+    {
+        NowScore++;
+        textScore.text = NowScore.ToString();
+    }
+
+    public void showNowScore()
+    {
+        textNowScore.text = NowScore.ToString();
     }
 }
